@@ -1,9 +1,10 @@
 import "./App.css";
+import Homepage from "./pages/Homepage";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Gym Guru application</h1>
+    <div>
+      <Homepage/>
     </div>
   );
 }
