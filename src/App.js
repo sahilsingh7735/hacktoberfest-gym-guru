@@ -5,10 +5,12 @@ import About from "./pages/About"
 import Plans from "./pages/Plans"
 import JoinNow from "./pages/JoinNow";
 import "./App.css";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route index path="/" element={<Home/>} />
         <Route path="/gallery" element={<Gallery/>} />
